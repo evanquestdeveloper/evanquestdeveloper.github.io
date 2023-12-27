@@ -1,0 +1,47 @@
+body {
+    margin: auto;
+
+    padding: 50px;
+    font-family: 'Arial', sans-serif; 
+    color: #5849; 
+    background: #33475b; 
+    text-align: center;
+}
+.header {
+    justify-content: center;
+    padding: 6px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img { 
+    max-width: 100%;  
+    height: 70%;  
+} 
+.together {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+@font-face {
+    font-family: GeoFont;
+    src: url(OXYGENE1.TTF);
+
+}
+h2 {
+    font-family: GeoFont;
+    color: black;
+    font-size: 60px;
+}
+.idss {
+    font-family: GeoFont;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
+footer {
+    font-family: GeoFont;
+    color: black;
+    font-size: 20px; 
+    padding: 10px;
+}
